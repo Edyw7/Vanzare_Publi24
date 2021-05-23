@@ -1,0 +1,311 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.986),rgba(255, 255, 255, 0.986));
+    height: 600px;
+    width: 900px;
+    border-radius: 10px;
+    opacity: 150px;
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+
+button {
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+}
+
+
+
+.logo{
+    position: fixed;
+    top: 4%;
+    left: 2%;
+    
+    width:140px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.button {
+    color: rgba(0, 0, 0, 0.986);
+    position: fixed;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    border-radius: 50px;
+    width: 140px;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+    outline: none;
+}
+
+
+button:hover{
+transition: all .8s ease;
+-webkit-transition: all .8s ease;
+color:rgba(255, 0, 0, 0.986);
+}
+
+
+.input{
+    background-color: none;
+    line-height: 0;
+    font-size: 17px;
+    width: 34%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: 3%;
+}
+
+.label {
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+margin-top: -2.8%;
+}
+.label1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -0.5%;
+    top: 17%;
+    left: 2%;
+}
+.label2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 9.5%;
+    margin-left: 73%;
+    top: 39%;
+    left: 5%;
+}
+
+.label3 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 9.5%;
+    margin-left: 73%;
+    top: 68%;
+    left: 3%;
+}
+
+
+.label4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -63%;
+}
+.label5 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    position: absolute;
+    top: 39%;
+    left: 76%;
+}
+.label6 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    position: absolute;
+    top: 62%;
+    left: 2%;
+}
+.label7 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    position: absolute;
+    top: 73%;
+    left: 2%;
+}
+.age {
+    background-color: none;
+    line-height: 0;
+    font-size: 14px;
+    width: 16%;
+    display: block;
+    box-sizing: border-box;
+    padding: 11px 22px;
+    border-radius: 112px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: 20%;
+    margin-left: 74%;
+}
+.rage {
+    background-color: none;
+    line-height: 0;
+    font-size: -14px;
+    width: 16%;
+    display: block;
+    box-sizing: border-box;
+    padding: 11px 22px;
+    border-radius: 112px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: 13%;
+    margin-left: 74%;
+}
+.id {
+    background-color: none;
+    line-height: 0;
+    font-size: 17px;
+    width: 16%;
+    display: block;
+    box-sizing: border-box;
+    padding: 11px 22px;
+    border-radius: 112px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: 26%;
+    margin-left: -2%;
+}
+.dis {
+    background-color: none;
+    line-height: 0;
+    font-size: 17px;
+    width: 24%;
+    display: block;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    border-radius: 105px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    margin-left: -2%;
+}
+
+.why {
+    background-color: none;
+    line-height: 0;
+    font-size: 28px;
+    width: 39%;
+    display: block;
+    box-sizing: border-box;
+    padding: 48px 10px;
+    border-radius: 35px;
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-top: -63%;
+    margin-left: 61%;
+}
+.gender {
+    position: absolute;
+    top: 43%;
+    left: 66%;
+    height: 49px;
+    width: 250px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+}
+.sumbit {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 80%;
+    left: 41%;
+    font-size: 40px;
+}
+
+
+.warn {
+    color: rgba(0, 0, 0, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 1%;
+    left: 37%;
+}
+
+
+.thanks {
+    color: rgba(0, 0, 0, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 9%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+
+.sponsor {
+    color: rgba(0, 0, 0, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+
+.exit {
+    position: fixed;
+    top: 70%;
+    left: 48%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width: 140px;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+    outline: none;
+}
+

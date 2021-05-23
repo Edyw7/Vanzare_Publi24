@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<img class="logo" alt="lspd" src="https://cdn.discordapp.com/attachments/551522300642459665/846105766309527582/unknown.png">
+				<h1 style="margin-left: 160px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+    				top: 50%;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);"></h1>
+				<button class="button" id="start">Adauga un anunt</button>
+			</div>
+
+
+			<!-- Form -->
+
+
+
+			<div id="info">
+				
+				<label class="label">Nume</label>
+				<input id="firstname" type="text" placeholder="Scrie aici..." class="input"  required="true" name="need" ><br>
+				<label class="label1">Prenume</label>
+				<input id="lastname" type="text" placeholder="Scrie aici..." class="input"  required="true" name="need" ><br>
+				<label class="label2">Varsta:</label>
+				<input id="age" type="number" placeholder="Scrie aici..." class="age"  required="true" name="need" ><br>
+				<label class="label3">An</label>
+				<input id="rage" type="number" placeholder="Scrie aici..." class="rage"  required="true" name="need" ><br>
+				<label class="label4">Ce vrei sa vinzi?</label>
+				<input id="why" type="text" placeholder="Scrie aici..." class="why"  required="true"  name="need"><br>
+				<label class="label5">Tip</label>
+
+				<select  class="gender" id="gender" required="true">
+					<option value="Barbat">Vechie</option>
+					<option value="Femeie">Noua</option>
+				</select>
+
+				<label class="label6">CNP</label>
+				<input id="id" type="number" placeholder="Scrie aici..." class="id"  required="true"  name="need"><br>
+
+				<label class="label7">Numele si # de pe discord!</label>
+				<input id="dis"type="text" type="textarea" placeholder="Scrie aici..." class="dis"  required="true"  name="need"><br>
+
+				<strong class="warn"  id="warn">Completeaza toate tabelele!</strong>
+				<button class="sumbit" id="sumbit">Publica</button>
+			</div>
+
+			<!-- Done -->
+
+			<div id="done">
+				<strong class="thanks">Publi24.ro</strong>
+			    <strong class="sponsor">o marca russmedia</strong>
+				
+				<button class="exit" id="exit">Iesi</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
